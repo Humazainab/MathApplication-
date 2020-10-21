@@ -1,4 +1,4 @@
-var myElement = document.getElementById("#firstNumber");
+/*var myElement = document.getElementById("#firstNumber");
 firstNumber.addEventListener("click", function addRandom () {
     var firstNumber = (Math.floor(Math.random() * 10));    
  } ); 
@@ -7,4 +7,8 @@ firstNumber.addEventListener("click", function addRandom () {
 function random () {
     var first = (Math.floor(Math.random() * 10));
     } ;
- //console.log(Math.floor(Math.random() * 10))
+ //console.log(Math.floor(Math.random() * 10))*/
+
+ function random () {
+     document.getElementById("firstNumber").innerHTML = Math.random () ; 
+ }
