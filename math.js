@@ -1,4 +1,4 @@
-andrvar myElement = document.getElementById("#firstNumber");
+var myElement = document.getElementById("#firstNumber");
 firstNumber.addEventListener("click", function random () {
     var firstNumber = (Math.floor(Math.random() * 10));    
  } ); 
