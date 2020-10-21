@@ -10,5 +10,5 @@ function random () {
  //console.log(Math.floor(Math.random() * 10))*/
 
  function random () {
-     document.getElementById("firstNumber").innerHTML = Math.random () ; 
+     document.getElementById("#firstNumber").innerHTML = Math.random () ; 
  }
