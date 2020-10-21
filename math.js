@@ -1,5 +1,5 @@
 var myElement = document.getElementById("#firstNumber");
-firstNumber.addEventListener("click", function random () {
+firstNumber.addEventListener("click", function addRandom () {
     var firstNumber = (Math.floor(Math.random() * 10));    
  } ); 
 
